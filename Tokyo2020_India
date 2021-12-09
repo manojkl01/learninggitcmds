@@ -8,3 +8,10 @@ bronze: Lovlina
   
 kubectl delete -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+[Yesterday 17:22] Sagar Deshmukh
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+[Yesterday 17:25] Sagar Deshmukh
+kubectl describe pod <name>
+
+
