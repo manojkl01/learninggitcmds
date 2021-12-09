@@ -15,7 +15,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl describe pod <name>
 
 
-
+kubeadm join 192.168.0.101:6443 --token 08pz67.p1x5yqx9f3f65684 --discovery-token-ca-cert-hash sha256:9c00408d44ce0e7c4949b2b0495399107b4bc544bda342806e156f2a50d12135
 
 
 
